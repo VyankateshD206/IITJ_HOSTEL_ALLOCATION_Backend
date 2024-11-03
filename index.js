@@ -26,7 +26,8 @@ app.use(express.json());
 app.use(cookieParser());
 // // app.use('/uploads', express.static(__dirname+'/uploads'));
 app.use(cors({
-  origin: "*" // Allows all origins but blocks credentials
+  origin: "*", // Allows all origins but blocks credentials
+  credentials : true
 }));
 
 
