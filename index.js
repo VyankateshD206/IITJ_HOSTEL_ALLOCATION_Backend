@@ -32,6 +32,9 @@ app.use(cors({
 
 
 mongoose.connect(process.env.MONGO_URL);
+app.get('/', (req,res) => {
+  res.send("Hostel Room Allocation");
+});
 app.get('/test', (req,res) => {
   res.json('test ok');
 });
