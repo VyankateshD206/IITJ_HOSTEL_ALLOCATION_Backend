@@ -21,18 +21,15 @@ const app = express();
 const bcryptSalt = bcrypt.genSaltSync(10);
 const jwtSecret = 'fasefraw4r5r3wq45wdfgw34twdfg';
 // // // const bucket = 'dawid-booking-app';
-app.use(cors({
-  origin: '*', // Allow all origins
-  credentials: true // Do not allow credentials
-}));
+
 app.use(express.json());
 app.use(cookieParser());
 // // app.use('/uploads', express.static(__dirname+'/uploads'));
 
-// app.use(cors({
-//   origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Set the specific frontend origin
-//   credentials: true // Enable credentials (cookies, authorization headers)
-// }));
+app.use(cors({
+  origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Set the specific frontend origin
+  credentials: true // Enable credentials (cookies, authorization headers)
+}));
 
 
 mongoose.connect(process.env.MONGO_URL);
