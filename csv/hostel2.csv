@@ -1,0 +1,201 @@
+Room No,Name,Roll No,Status
+101,Ravi Kumar,B23CS1400,occupied
+102,Riya Kumar,B23CS1401,occupied
+103,Nisha Mehta,B23CS1402,occupied
+104,Rohan Verma,B23CS1403,occupied
+105,Priya Kapoor,B23CS1404,occupied
+106,Riya Mehta,B23CS1405,occupied
+107,Rohan Nambiar,B23CS1406,occupied
+108,Sakshi Saxena,B23CS1407,occupied
+109,,,available
+110,,,available
+111,Sneha Yadav,B23CS1410,occupied
+112,Anjali Patel,B23CS1411,occupied
+113,Anjali Yadav,B23CS1412,occupied
+114,,,available
+115,,,available
+116,,,available
+117,Aman Patel,B23CS1416,occupied
+118,,,available
+119,Nisha Nambiar,B23CS1418,occupied
+120,,,available
+121,Anjali Aggarwal,B23CS1420,occupied
+122,Sneha Nair,B23CS1421,occupied
+123,Nisha Saxena,B23CS1422,occupied
+124,Aman Nambiar,B23CS1423,occupied
+125,,,available
+126,Aman Jain,B23CS1425,occupied
+127,,,available
+128,,,available
+129,,,available
+130,,,available
+131,,,available
+132,Nisha Iyer,B23CS1431,occupied
+133,Rohan Sharma,B23CS1432,occupied
+134,,,available
+135,Aarav Singh,B23CS1434,occupied
+136,Anjali Gupta,B23CS1435,occupied
+137,,,available
+138,,,available
+139,,,available
+140,Aarav Yadav,B23CS1439,occupied
+141,,,available
+142,Rohan Thakur,B23CS1441,occupied
+143,,,available
+144,,,available
+145,Aman Nambiar,B23CS1444,occupied
+146,,,available
+147,Rohan Chopra,B23CS1446,occupied
+148,,,available
+149,,,available
+150,Meera Aggarwal,B23CS1449,occupied
+151,,,available
+152,,,available
+153,Rahul Reddy,B23CS1452,occupied
+154,,,available
+155,,,available
+156,,,available
+157,,,available
+158,Shreya Mehta,B23CS1457,occupied
+159,Rahul Das,B23CS1458,occupied
+160,,,available
+161,,,available
+162,,,available
+163,,,available
+164,,,available
+165,Divya Mehta,B23CS1464,occupied
+166,,,available
+167,Shreya Thakur,B23CS1466,occupied
+168,,,available
+169,,,available
+170,Kiran Sharma,B23CS1469,occupied
+171,Sneha Chopra,B23CS1470,occupied
+172,Aarav Singh,B23CS1471,occupied
+173,Kabir Gupta,B23CS1472,occupied
+174,Anjali Sharma,B23CS1473,occupied
+175,Rohit Kumar,B23CS1474,occupied
+176,Rohit Nambiar,B23CS1475,occupied
+177,Rohan Thakur,B23CS1476,occupied
+178,Kiran Gupta,B23CS1477,occupied
+179,,,available
+180,,,available
+181,Riya Sharma,B23CS1480,occupied
+182,,,available
+183,,,available
+184,,,available
+185,Vikram Das,B23CS1484,occupied
+186,,,available
+187,,,available
+188,,,available
+189,,,available
+190,Rahul Das,B23CS1489,occupied
+191,Sneha Jain,B23CS1490,occupied
+192,Meera Singh,B23CS1491,occupied
+193,Arjun Verma,B23CS1492,occupied
+194,,,available
+195,Rohan Yadav,B23CS1494,occupied
+196,,,available
+197,,,available
+198,,,available
+199,Aman Kapoor,B23CS1498,occupied
+200,,,available
+201,Shreya Sharma,B23CS1500,occupied
+202,Anjali Verma,B23CS1501,occupied
+203,,,available
+204,Rohan Aggarwal,B23CS1503,occupied
+205,Nisha Kumar,B23CS1504,occupied
+206,Anjali Nair,B23CS1505,occupied
+207,Divya Jain,B23CS1506,occupied
+208,,,available
+209,Arjun Kapoor,B23CS1508,occupied
+210,,,available
+211,,,available
+212,,,available
+213,Riya Singh,B23CS1512,occupied
+214,,,available
+215,Aarav Mehta,B23CS1514,occupied
+216,Shreya Sharma,B23CS1515,occupied
+217,,,available
+218,Rohan Das,B23CS1517,occupied
+219,,,available
+220,Arjun Jain,B23CS1519,occupied
+221,,,available
+222,,,available
+223,,,available
+224,,,available
+225,Anjali Iyer,B23CS1524,occupied
+226,,,available
+227,Arjun Mehta,B23CS1526,occupied
+228,,,available
+229,,,available
+230,,,available
+231,,,available
+232,,,available
+233,Divya Saxena,B23CS1532,occupied
+234,Ishaan Thakur,B23CS1533,occupied
+235,Aarav Gupta,B23CS1534,occupied
+236,Arjun Iyer,B23CS1535,occupied
+237,,,available
+238,Sakshi Gupta,B23CS1537,occupied
+239,Sakshi Reddy,B23CS1538,occupied
+240,Rohan Iyer,B23CS1539,occupied
+241,,,available
+242,Kabir Mehta,B23CS1541,occupied
+243,Riya Reddy,B23CS1542,occupied
+244,Divya Nambiar,B23CS1543,occupied
+245,,,available
+246,,,available
+247,Shreya Sharma,B23CS1546,occupied
+248,Anjali Verma,B23CS1547,occupied
+249,Ravi Verma,B23CS1548,occupied
+250,Aman Aggarwal,B23CS1549,occupied
+251,,,available
+252,,,available
+253,,,available
+254,Sneha Reddy,B23CS1553,occupied
+255,,,available
+256,,,available
+257,,,available
+258,Rohit Menon,B23CS1557,occupied
+259,Rahul Menon,B23CS1558,occupied
+260,Kabir Iyer,B23CS1559,occupied
+261,,,available
+262,,,available
+263,,,available
+264,,,available
+265,,,available
+266,Anjali Gupta,B23CS1565,occupied
+267,,,available
+268,Kiran Saxena,B23CS1567,occupied
+269,Aarav Kapoor,B23CS1568,occupied
+270,Aman Nair,B23CS1569,occupied
+271,,,available
+272,,,available
+273,,,available
+274,,,available
+275,Nisha Verma,B23CS1574,occupied
+276,Sneha Saxena,B23CS1575,occupied
+277,Sneha Gupta,B23CS1576,occupied
+278,,,available
+279,,,available
+280,Aarav Sharma,B23CS1579,occupied
+281,,,available
+282,Arjun Singh,B23CS1581,occupied
+283,,,available
+284,Rahul Gupta,B23CS1583,occupied
+285,Divya Thakur,B23CS1584,occupied
+286,Ravi Yadav,B23CS1585,occupied
+287,,,available
+288,,,available
+289,,,available
+290,Sakshi Kumar,B23CS1589,occupied
+291,Ravi Kumar,B23CS1590,occupied
+292,,,available
+293,Nisha Sharma,B23CS1592,occupied
+294,,,available
+295,Aman Thakur,B23CS1594,occupied
+296,,,available
+297,Vikram Kapoor,B23CS1596,occupied
+298,Aman Singh,B23CS1597,occupied
+299,Kabir Thakur,B23CS1598,occupied
+300,,,available
