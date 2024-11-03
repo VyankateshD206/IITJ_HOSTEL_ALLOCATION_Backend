@@ -23,7 +23,7 @@ const jwtSecret = 'fasefraw4r5r3wq45wdfgw34twdfg';
 // // // const bucket = 'dawid-booking-app';
 app.use(cors({
   origin: '*', // Allow all origins
-  credentials: false // Do not allow credentials
+  credentials: true // Do not allow credentials
 }));
 app.use(express.json());
 app.use(cookieParser());
