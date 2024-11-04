@@ -266,8 +266,8 @@ app.post('/hostels/:hostelId/room/:roomId/allocate', isAuthenticated, async (req
     room.rollNo = rollNo;
     room.status = 'occupied';
     
-    // Only add dates if the hostel name is "Hostel 4"
-    if (hostel.name === 'Hostel 4') {
+    // Only add dates for Hostel 4
+    if (hostelId === '4') {
       room.checkInDate = checkInDate;
       room.checkOutDate = checkOutDate;
     }
@@ -309,8 +309,8 @@ app.post('/hostels/:hostelId/room/:roomId/deallocate', isAuthenticated, async (r
     room.rollNo = '';
     room.status = 'available';
     
-    // Clear dates if the hostel name is "Hostel 4"
-    if (hostel.name === 'Hostel 4') {
+    // Clear dates if it's Hostel 4
+    if (hostelId === '4') {
       room.checkInDate = null;
       room.checkOutDate = null;
     }
