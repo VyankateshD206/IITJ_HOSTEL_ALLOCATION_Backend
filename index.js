@@ -241,9 +241,9 @@ app.get('/hostels/:hostelId/room/:roomId', async (req, res) => {
 });
 
 // Add this new route for room allocation
-app.post('/hostels/:hostelId/room/:roomId/allocate',isAuthenticated, async (req, res) => {
+app.post('/hostels/:hostelId/room/:roomId/allocate', isAuthenticated, async (req, res) => {
   const { hostelId, roomId } = req.params;
-  const { name, rollNo } = req.body;
+  const { name, rollNo, checkInDate, checkOutDate } = req.body;
   
   console.log('Allocation request:', { hostelId, roomId, name, rollNo });
   try {
@@ -265,6 +265,13 @@ app.post('/hostels/:hostelId/room/:roomId/allocate',isAuthenticated, async (req,
     room.name = name;
     room.rollNo = rollNo;
     room.status = 'occupied';
+    
+    // Only add dates for Hostel 4
+    if (hostelId === '4') {
+      room.checkInDate = checkInDate;
+      room.checkOutDate = checkOutDate;
+    }
+    
     await room.save();
 
     // Update hostel's available rooms count
@@ -278,8 +285,8 @@ app.post('/hostels/:hostelId/room/:roomId/allocate',isAuthenticated, async (req,
   }
 });
 
-// Add this new route for room deallocation
-app.post('/hostels/:hostelId/room/:roomId/deallocate',isAuthenticated, async (req, res) => {
+// Update the deallocation route
+app.post('/hostels/:hostelId/room/:roomId/deallocate', isAuthenticated, async (req, res) => {
   const { hostelId, roomId } = req.params;
   
   try {
@@ -301,6 +308,13 @@ app.post('/hostels/:hostelId/room/:roomId/deallocate',isAuthenticated, async (re
     room.name = '';
     room.rollNo = '';
     room.status = 'available';
+    
+    // Clear dates if it's Hostel 4
+    if (hostelId === '4') {
+      room.checkInDate = null;
+      room.checkOutDate = null;
+    }
+    
     await room.save();
 
     // Update hostel's available rooms count

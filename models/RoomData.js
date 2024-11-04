@@ -5,7 +5,9 @@ const roomSchema = new mongoose.Schema({
     name: String,
     rollNo: String,
     status: String,
-    hostel: { type: mongoose.Schema.Types.ObjectId, ref: 'Hostel' }
+    hostel: { type: mongoose.Schema.Types.ObjectId, ref: 'Hostel' },
+    checkInDate: { type: Date },
+    checkOutDate: { type: Date }
     });
 
 const DB = mongoose.connection.useDb("Hostel_DB")
