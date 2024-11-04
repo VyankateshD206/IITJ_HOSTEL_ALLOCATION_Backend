@@ -317,32 +317,48 @@ app.post('/hostels/:hostelId/room/:roomId/deallocate',isAuthenticated, async (re
 // Get all occupied rooms with student details
 app.get('/rooms/occupied', async (req, res) => {
   try {
-    const occupiedRooms = await Room.find({ status: 'occupied' })
-      .populate('hostel', 'name')
-      .exec(); // Add exec() to properly execute the query
+    console.log('Fetching occupied rooms...');
     
-    // Add error checking and logging
-    if (!occupiedRooms) {
+    const rooms = await Room.find({ status: 'occupied' });
+    console.log('Found rooms:', rooms.length);
+
+    if (!rooms || rooms.length === 0) {
       console.log('No occupied rooms found');
       return res.json([]);
     }
 
-    // Transform the data to include hostel name, with null checks
-    const students = occupiedRooms.map(room => ({
+    // Map the rooms without exposing hostel ID
+    const students = rooms.map(room => ({
       _id: room._id,
       name: room.name || '',
       rollNo: room.rollNo || '',
       roomNo: room.roomNo || '',
-      hostel: room.hostel?._id || '',
-      hostelName: room.hostel?.name || 'Unknown Hostel'
+      hostelName: 'Unknown Hostel' // Default value
     }));
+
+    // Populate hostel names
+    for (let student of students) {
+      try {
+        const room = rooms.find(r => r._id.toString() === student._id.toString());
+        if (room?.hostel) {
+          const hostel = await Hostel.findById(room.hostel);
+          if (hostel) {
+            student.hostelName = hostel.name;
+          }
+        }
+      } catch (err) {
+        console.error(`Error fetching hostel for room ${student._id}:`, err);
+      }
+    }
     
+    console.log('Successfully processed students:', students.length);
     res.json(students);
+
   } catch (error) {
     console.error('Error in /rooms/occupied:', error);
     res.status(500).json({ 
       error: 'An error occurred while fetching occupied rooms',
-      details: error.message 
+      details: error.message
     });
   }
 });
