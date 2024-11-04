@@ -241,7 +241,7 @@ app.get('/hostels/:hostelId/room/:roomId', async (req, res) => {
 });
 
 // Add this new route for room allocation
-app.post('/hostels/:hostelId/room/:roomId/allocate', async (req, res) => {
+app.post('/hostels/:hostelId/room/:roomId/allocate',isAuthenticated, async (req, res) => {
   const { hostelId, roomId } = req.params;
   const { name, rollNo } = req.body;
   
