@@ -347,7 +347,10 @@ app.get('/rooms/occupied', async (req, res) => {
     res.json(students);
   } catch (error) {
     console.error('Error fetching occupied rooms:', error);
-    res.status(500).json({ error: 'An error occurred while fetching occupied rooms' });
+    res.status(500).json({ 
+      error: 'An error occurred while fetching occupied rooms',
+      details: error.message
+    });
   }
 });
 
