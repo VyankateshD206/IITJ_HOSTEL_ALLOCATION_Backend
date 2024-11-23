@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
 const hostelSchema = new mongoose.Schema({
-  name: String,
-  totalRooms: Number,
-  availableRooms: Number,
+  name: { type: String, required: true },
+  totalRooms: { type: Number, required: true },
+  availableRooms: { type: Number, required: true },
   image: String
 });
 

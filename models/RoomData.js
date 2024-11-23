@@ -10,7 +10,7 @@ const roomSchema = new mongoose.Schema({
     checkOutDate: { type: Date }
     });
 
-const DB = mongoose.connection.useDb("Hostel_DB")
+const DB = mongoose.connection.useDb("Hostel_DB");
 const Room =  DB.model('Room', roomSchema);
 // const Room =  mongoose.connection.model('Room', roomSchema);
 
