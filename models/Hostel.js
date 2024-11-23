@@ -7,9 +7,8 @@ const hostelSchema = new mongoose.Schema({
   image: String
 });
 
-// const DB = mongoose.connection.useDb("Hostel_DB")
-// const Hostel =  DB.model('Hostel', hostelSchema);
-const Hostel = mongoose.model('Hostel', hostelSchema);
+const DB = mongoose.connection.useDb("Hostel_DB")
+const Hostel =  DB.model('Hostel', hostelSchema);
 // const Hostel =  mongoose.connection.model('Hostel', hostelSchema);
 
 
