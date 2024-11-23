@@ -151,6 +151,12 @@ app.get('/hostels', async (req, res) => {
       };
       hostels.push(testHostel);
     }
+    for (let hostel of hostels) {
+      const totalRooms = await Room.countDocuments({ hostel: hostel._id });
+      const availableRooms = await Room.countDocuments({ hostel: hostel._id, status: 'available' });
+      hostel.totalRooms = totalRooms;
+      hostel.availableRooms = availableRooms;
+    }
     
     res.json(hostels);
   } catch (error) {
