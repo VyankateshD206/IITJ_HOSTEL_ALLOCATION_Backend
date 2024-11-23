@@ -371,5 +371,54 @@ app.get('/rooms/occupied', async (req, res) => {
   }
 });
 
+// Add this route for fetching students
+app.get('/students', async (req, res) => {
+  try {
+    console.log('Fetching occupied rooms for students...');
+    
+    const rooms = await Room.find({ status: 'occupied' });
+    console.log('Found rooms:', rooms.length);
+
+    if (!rooms || rooms.length === 0) {
+      console.log('No occupied rooms found');
+      return res.json([]);
+    }
+
+    // Map the rooms to student details
+    const students = rooms.map(room => ({
+      _id: room._id,
+      name: room.name || '',
+      rollNo: room.rollNo || '',
+      roomNo: room.roomNo || '',
+      hostelName: 'Unknown Hostel' // Default value
+    }));
+
+    // Populate hostel names
+    for (let student of students) {
+      try {
+        const room = rooms.find(r => r._id.toString() === student._id.toString());
+        if (room?.hostel) {
+          const hostel = await Hostel.findById(room.hostel);
+          if (hostel) {
+            student.hostelName = hostel.name;
+          }
+        }
+      } catch (err) {
+        console.error(`Error fetching hostel for room ${student._id}:`, err);
+      }
+    }
+    
+    console.log('Successfully processed students:', students.length);
+    res.json(students);
+
+  } catch (error) {
+    console.error('Error in /students:', error);
+    res.status(500).json({ 
+      error: 'An error occurred while fetching students',
+      details: error.message
+    });
+  }
+});
+
 app.listen(process.env.PORT || 4000);
 
