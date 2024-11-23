@@ -244,6 +244,7 @@ app.get('/hostels/:hostelId/room/:roomId', async (req, res) => {
 app.post('/hostels/:hostelId/room/:roomId/allocate', isAuthenticated, async (req, res) => {
   const { hostelId, roomId } = req.params;
   const { name, rollNo, checkInDate, checkOutDate } = req.body;
+  console.log('Request Body:', req.body);
   
   console.log('Allocation request:', { hostelId, roomId, name, rollNo });
   try {
@@ -267,7 +268,7 @@ app.post('/hostels/:hostelId/room/:roomId/allocate', isAuthenticated, async (req
     room.status = 'occupied';
     
     // Only add dates for Hostel 4
-    if (hostelId === '4') {
+    if (hostelId === '6727ad67cfce1a32cd0d9e45') {
       room.checkInDate = checkInDate;
       room.checkOutDate = checkOutDate;
     }
