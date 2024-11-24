@@ -12,16 +12,12 @@ async function addTestRooms() {
     await mongoose.connect(process.env.MONGO_URL);
     console.log('Connected to MongoDB');
 
-    // Clear existing rooms
-    await Room.deleteMany({});
-    console.log('Cleared existing rooms');
-
     // Add test rooms for a specific hostel
-    const hostelId = '67042083c4fc139bb62809a2'; // Your hostel ID
+    const hostelId = '6727ad67cfce1a32cd0d9e45'; // Updated hostel ID
     const roomsToAdd = [];
 
     // Create 20 test rooms
-    for (let i = 1; i <= 20; i++) {
+    for (let i = 1; i <= 100; i++) {
       const roomNo = `${100 + i}`;
       const status = i % 2 === 0 ? 'available' : 'occupied';
       const room = {

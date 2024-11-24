@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const Room = require('../models/RoomData');
 const path = require('path');
+const fs = require('fs');
+const csv = require('csv-parser');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 async function resetRoomData() {
@@ -14,27 +16,41 @@ async function resetRoomData() {
     console.log('Cleared all existing rooms');
 
     // Your hostel ID - make sure this matches an existing hostel in your database
-    const hostelId = '67042083c4fc139bb62809a2';
+    const hostelId = '6727ad67cfce1a32cd0d9e41';
 
-    // Create 50 rooms for this hostel
-    const roomsToAdd = [];
-    for (let i = 1; i <= 50; i++) {
-      const roomNo = i < 10 ? `10${i}` : `1${i}`; // Creates room numbers 101-150
-      const status = i % 3 === 0 ? 'occupied' : 'available'; // Makes every third room occupied
-      
-      const room = {
-        roomNo,
-        name: status === 'occupied' ? `Student ${i}` : '',
-        rollNo: status === 'occupied' ? `B23CS${1200 + i}` : '',
-        status,
-        hostel: hostelId
-      };
-      roomsToAdd.push(room);
+    // New function to read CSV and insert data
+    async function importRoomsFromCSV(filePath) {
+      const roomsToAdd = [];
+      return new Promise((resolve, reject) => {
+        fs.createReadStream(filePath)
+          .pipe(csv())
+          .on('data', (row) => {
+            const room = {
+              roomNo: row.roomNo, // Maps to CSV column
+              name: row.name,     // Maps to CSV column
+              rollNo: row.rollNo, // Maps to CSV column
+              status: row.status,  // Maps to CSV column
+              hostel: hostelId     // Ensure this matches hostel 2
+            };
+            roomsToAdd.push(room);
+          })
+          .on('end', async () => {
+            try {
+              const result = await Room.insertMany(roomsToAdd);
+              console.log(`Added ${result.length} new rooms from CSV for hostel ${hostelId}`);
+              resolve();
+            } catch (error) {
+              reject(error);
+            }
+          })
+          .on('error', (error) => {
+            reject(error);
+          });
+      });
     }
 
-    // Insert the new rooms
-    const result = await Room.insertMany(roomsToAdd);
-    console.log(`Added ${result.length} new rooms for hostel ${hostelId}`);
+    // Call the new function with the path to your CSV file
+    await importRoomsFromCSV('../csv/hostel2.csv'); // Updated to relative path
 
     // Verify the data
     const count = await Room.countDocuments();

@@ -1,201 +1,201 @@
-Room No,Name,Roll No,Status
-101,Aarav Jain,B23CS1800,occupied
-102,Riya Gupta,B23CS1801,occupied
-103,,,available
-104,,,available
-105,,,available
-106,,,available
-107,Ravi Yadav,B23CS1806,occupied
-108,,,available
-109,,,available
-110,Riya Yadav,B23CS1809,occupied
-111,Aarav Sharma,B23CS1810,occupied
-112,,,available
-113,Shreya Singh,B23CS1812,occupied
-114,Rohit Singh,B23CS1813,occupied
-115,Arjun Jain,B23CS1814,occupied
-116,,,available
-117,Kabir Kumar,B23CS1816,occupied
-118,,,available
-119,Ishaan Nair,B23CS1818,occupied
-120,Rohan Mehta,B23CS1819,occupied
-121,,,available
-122,Rahul Singh,B23CS1821,occupied
-123,Nisha Verma,B23CS1822,occupied
-124,Meera Nambiar,B23CS1823,occupied
-125,,,available
-126,,,available
-127,Shreya Menon,B23CS1826,occupied
-128,,,available
-129,,,available
-130,,,available
-131,,,available
-132,Ravi Gupta,B23CS1831,occupied
-133,Kabir Yadav,B23CS1832,occupied
-134,Nisha Nambiar,B23CS1833,occupied
-135,,,available
-136,,,available
-137,Shreya Gupta,B23CS1836,occupied
-138,Arjun Yadav,B23CS1837,occupied
-139,Ravi Singh,B23CS1838,occupied
-140,Sakshi Sharma,B23CS1839,occupied
-141,Aman Patel,B23CS1840,occupied
-142,Riya Nambiar,B23CS1841,occupied
-143,Meera Mehta,B23CS1842,occupied
-144,,,available
-145,,,available
-146,Vikram Chopra,B23CS1845,occupied
-147,Aman Verma,B23CS1846,occupied
-148,Sakshi Menon,B23CS1847,occupied
-149,Rohit Iyer,B23CS1848,occupied
-150,Rohit Kumar,B23CS1849,occupied
-151,,,available
-152,Divya Nambiar,B23CS1851,occupied
-153,,,available
-154,Rahul Reddy,B23CS1853,occupied
-155,Kiran Nambiar,B23CS1854,occupied
-156,Meera Verma,B23CS1855,occupied
-157,Aarav Yadav,B23CS1856,occupied
-158,,,available
-159,,,available
-160,,,available
-161,,,available
-162,Sakshi Saxena,B23CS1861,occupied
-163,Shreya Yadav,B23CS1862,occupied
-164,Rohan Menon,B23CS1863,occupied
-165,,,available
-166,,,available
-167,,,available
-168,,,available
-169,,,available
-170,,,available
-171,,,available
-172,Riya Nambiar,B23CS1871,occupied
-173,Rohan Patel,B23CS1872,occupied
-174,,,available
-175,Sakshi Aggarwal,B23CS1874,occupied
-176,,,available
-177,Priya Chopra,B23CS1876,occupied
-178,Kiran Menon,B23CS1877,occupied
-179,Priya Yadav,B23CS1878,occupied
-180,Kabir Thakur,B23CS1879,occupied
-181,,,available
-182,Nisha Singh,B23CS1881,occupied
-183,,,available
-184,Sneha Patel,B23CS1883,occupied
-185,,,available
-186,,,available
-187,Riya Reddy,B23CS1886,occupied
-188,,,available
-189,Divya Nambiar,B23CS1888,occupied
-190,Priya Aggarwal,B23CS1889,occupied
-191,Arjun Gupta,B23CS1890,occupied
-192,Aman Kapoor,B23CS1891,occupied
-193,,,available
-194,Rohit Yadav,B23CS1893,occupied
-195,Rahul Jain,B23CS1894,occupied
-196,Ravi Reddy,B23CS1895,occupied
-197,Kabir Verma,B23CS1896,occupied
-198,Ishaan Gupta,B23CS1897,occupied
-199,,,available
-200,Riya Das,B23CS1899,occupied
-201,,,available
-202,,,available
-203,Meera Singh,B23CS1902,occupied
-204,Rahul Das,B23CS1903,occupied
-205,,,available
-206,Anjali Thakur,B23CS1905,occupied
-207,Nisha Kumar,B23CS1906,occupied
-208,Priya Mehta,B23CS1907,occupied
-209,Arjun Jain,B23CS1908,occupied
-210,Rahul Yadav,B23CS1909,occupied
-211,Sneha Yadav,B23CS1910,occupied
-212,Kiran Sharma,B23CS1911,occupied
-213,Kiran Reddy,B23CS1912,occupied
-214,,,available
-215,Priya Chopra,B23CS1914,occupied
-216,Ishaan Nair,B23CS1915,occupied
-217,Ishaan Iyer,B23CS1916,occupied
-218,Shreya Mehta,B23CS1917,occupied
-219,,,available
-220,Sakshi Nambiar,B23CS1919,occupied
-221,,,available
-222,Kiran Menon,B23CS1921,occupied
-223,Divya Iyer,B23CS1922,occupied
-224,Sneha Patel,B23CS1923,occupied
-225,Nisha Reddy,B23CS1924,occupied
-226,,,available
-227,Anjali Gupta,B23CS1926,occupied
-228,,,available
-229,,,available
-230,,,available
-231,Riya Yadav,B23CS1930,occupied
-232,,,available
-233,Arjun Iyer,B23CS1932,occupied
-234,,,available
-235,Aarav Kumar,B23CS1934,occupied
-236,,,available
-237,Meera Thakur,B23CS1936,occupied
-238,Rohan Yadav,B23CS1937,occupied
-239,,,available
-240,Nisha Sharma,B23CS1939,occupied
-241,Kiran Kapoor,B23CS1940,occupied
-242,Aman Nambiar,B23CS1941,occupied
-243,,,available
-244,,,available
-245,Meera Mehta,B23CS1944,occupied
-246,,,available
-247,,,available
-248,Rohit Yadav,B23CS1947,occupied
-249,Kabir Mehta,B23CS1948,occupied
-250,,,available
-251,,,available
-252,Arjun Thakur,B23CS1951,occupied
-253,Rohan Yadav,B23CS1952,occupied
-254,Rohit Chopra,B23CS1953,occupied
-255,Kiran Nambiar,B23CS1954,occupied
-256,,,available
-257,Vikram Sharma,B23CS1956,occupied
-258,,,available
-259,Ishaan Nambiar,B23CS1958,occupied
-260,,,available
-261,,,available
-262,Vikram Thakur,B23CS1961,occupied
-263,Sakshi Thakur,B23CS1962,occupied
-264,,,available
-265,Ishaan Gupta,B23CS1964,occupied
-266,,,available
-267,Aarav Singh,B23CS1966,occupied
-268,,,available
-269,,,available
-270,,,available
-271,Rohit Nambiar,B23CS1970,occupied
-272,,,available
-273,,,available
-274,Anjali Mehta,B23CS1973,occupied
-275,,,available
-276,Kabir Reddy,B23CS1975,occupied
-277,,,available
-278,Meera Mehta,B23CS1977,occupied
-279,Rohit Thakur,B23CS1978,occupied
-280,Anjali Das,B23CS1979,occupied
-281,,,available
-282,,,available
-283,Ravi Yadav,B23CS1982,occupied
-284,,,available
-285,,,available
-286,Priya Jain,B23CS1985,occupied
-287,Rohan Reddy,B23CS1986,occupied
-288,Anjali Mehta,B23CS1987,occupied
-289,Nisha Singh,B23CS1988,occupied
-290,Aarav Yadav,B23CS1989,occupied
-291,Rahul Nambiar,B23CS1990,occupied
-292,Priya Jain,B23CS1991,occupied
-293,,,available
-294,Vikram Kapoor,B23CS1993,occupied
-295,,,available
-296,Kiran Verma,B23CS1995,occupied
-297,,,available
-298,Meera Singh,B23CS1997,occupied
-299,Anjali Kumar,B23CS1998,occupied
-300,Sneha Sharma,B23CS1999,occupied
+roomNo,name,rollNo,status,checkInDate,checkOutDate
+101,Aarav Jain,B23CS1800,occupied,30-10-2024,30-11-2024
+102,Riya Gupta,B23CS1801,occupied,31-10-2024,01-12-2024
+103,,,available,,
+104,,,available,,
+105,,,available,,
+106,,,available,,
+107,Ravi Yadav,B23CS1806,occupied,01-11-2024,02-12-2024
+108,,,available,,
+109,,,available,,
+110,Riya Yadav,B23CS1809,occupied,02-11-2024,03-12-2024
+111,Aarav Sharma,B23CS1810,occupied,03-11-2024,04-12-2024
+112,,,available,,
+113,Shreya Singh,B23CS1812,occupied,04-11-2024,05-12-2024
+114,Rohit Singh,B23CS1813,occupied,05-11-2024,06-12-2024
+115,Arjun Jain,B23CS1814,occupied,06-11-2024,07-12-2024
+116,,,available,,
+117,Kabir Kumar,B23CS1816,occupied,07-11-2024,08-12-2024
+118,,,available,,
+119,Ishaan Nair,B23CS1818,occupied,08-11-2024,09-12-2024
+120,Rohan Mehta,B23CS1819,occupied,09-11-2024,10-12-2024
+121,,,available,,
+122,Rahul Singh,B23CS1821,occupied,10-11-2024,11-12-2024
+123,Nisha Verma,B23CS1822,occupied,11-11-2024,12-12-2024
+124,Meera Nambiar,B23CS1823,occupied,12-11-2024,13-12-2024
+125,,,available,,
+126,,,available,,
+127,Shreya Menon,B23CS1826,occupied,13-11-2024,14-12-2024
+128,,,available,,
+129,,,available,,
+130,,,available,,
+131,,,available,,
+132,Ravi Gupta,B23CS1831,occupied,14-11-2024,15-12-2024
+133,Kabir Yadav,B23CS1832,occupied,15-11-2024,16-12-2024
+134,Nisha Nambiar,B23CS1833,occupied,16-11-2024,17-12-2024
+135,,,available,,
+136,,,available,,
+137,Shreya Gupta,B23CS1836,occupied,17-11-2024,18-12-2024
+138,Arjun Yadav,B23CS1837,occupied,18-11-2024,19-12-2024
+139,Ravi Singh,B23CS1838,occupied,19-11-2024,20-12-2024
+140,Sakshi Sharma,B23CS1839,occupied,20-11-2024,21-12-2024
+141,Aman Patel,B23CS1840,occupied,21-11-2024,22-12-2024
+142,Riya Nambiar,B23CS1841,occupied,22-11-2024,23-12-2024
+143,Meera Mehta,B23CS1842,occupied,23-11-2024,24-12-2024
+144,,,available,,
+145,,,available,,
+146,Vikram Chopra,B23CS1845,occupied,24-11-2024,25-12-2024
+147,Aman Verma,B23CS1846,occupied,25-11-2024,26-12-2024
+148,Sakshi Menon,B23CS1847,occupied,26-11-2024,27-12-2024
+149,Rohit Iyer,B23CS1848,occupied,27-11-2024,28-12-2024
+150,Rohit Kumar,B23CS1849,occupied,28-11-2024,29-12-2024
+151,,,available,,
+152,Divya Nambiar,B23CS1851,occupied,29-11-2024,30-12-2024
+153,,,available,,
+154,Rahul Reddy,B23CS1853,occupied,30-11-2024,31-12-2024
+155,Kiran Nambiar,B23CS1854,occupied,01-12-2024,01-01-2025
+156,Meera Verma,B23CS1855,occupied,02-12-2024,02-01-2025
+157,Aarav Yadav,B23CS1856,occupied,03-12-2024,03-01-2025
+158,,,available,,
+159,,,available,,
+160,,,available,,
+161,,,available,,
+162,Sakshi Saxena,B23CS1861,occupied,04-12-2024,04-01-2025
+163,Shreya Yadav,B23CS1862,occupied,05-12-2024,05-01-2025
+164,Rohan Menon,B23CS1863,occupied,06-12-2024,06-01-2025
+165,,,available,,
+166,,,available,,
+167,,,available,,
+168,,,available,,
+169,,,available,,
+170,,,available,,
+171,,,available,,
+172,Riya Nambiar,B23CS1871,occupied,07-12-2024,07-01-2025
+173,Rohan Patel,B23CS1872,occupied,08-12-2024,08-01-2025
+174,,,available,,
+175,Sakshi Aggarwal,B23CS1874,occupied,09-12-2024,09-01-2025
+176,,,available,,
+177,Priya Chopra,B23CS1876,occupied,10-12-2024,10-01-2025
+178,Kiran Menon,B23CS1877,occupied,11-12-2024,11-01-2025
+179,Priya Yadav,B23CS1878,occupied,12-12-2024,12-01-2025
+180,Kabir Thakur,B23CS1879,occupied,13-12-2024,13-01-2025
+181,,,available,,
+182,Nisha Singh,B23CS1881,occupied,14-12-2024,14-01-2025
+183,,,available,,
+184,Sneha Patel,B23CS1883,occupied,15-12-2024,15-01-2025
+185,,,available,,
+186,,,available,,
+187,Riya Reddy,B23CS1886,occupied,16-12-2024,16-01-2025
+188,,,available,,
+189,Divya Nambiar,B23CS1888,occupied,17-12-2024,17-01-2025
+190,Priya Aggarwal,B23CS1889,occupied,18-12-2024,18-01-2025
+191,Arjun Gupta,B23CS1890,occupied,19-12-2024,19-01-2025
+192,Aman Kapoor,B23CS1891,occupied,20-12-2024,20-01-2025
+193,,,available,,
+194,Rohit Yadav,B23CS1893,occupied,21-12-2024,21-01-2025
+195,Rahul Jain,B23CS1894,occupied,22-12-2024,22-01-2025
+196,Ravi Reddy,B23CS1895,occupied,23-12-2024,23-01-2025
+197,Kabir Verma,B23CS1896,occupied,24-12-2024,24-01-2025
+198,Ishaan Gupta,B23CS1897,occupied,25-12-2024,25-01-2025
+199,,,available,,
+200,Riya Das,B23CS1899,occupied,26-12-2024,26-01-2025
+201,,,available,,
+202,,,available,,
+203,Meera Singh,B23CS1902,occupied,27-12-2024,27-01-2025
+204,Rahul Das,B23CS1903,occupied,28-12-2024,28-01-2025
+205,,,available,,
+206,Anjali Thakur,B23CS1905,occupied,29-12-2024,29-01-2025
+207,Nisha Kumar,B23CS1906,occupied,30-12-2024,30-01-2025
+208,Priya Mehta,B23CS1907,occupied,31-12-2024,31-01-2025
+209,Arjun Jain,B23CS1908,occupied,01-01-2025,01-02-2025
+210,Rahul Yadav,B23CS1909,occupied,02-01-2025,02-02-2025
+211,Sneha Yadav,B23CS1910,occupied,03-01-2025,03-02-2025
+212,Kiran Sharma,B23CS1911,occupied,04-01-2025,04-02-2025
+213,Kiran Reddy,B23CS1912,occupied,05-01-2025,05-02-2025
+214,,,available,,
+215,Priya Chopra,B23CS1914,occupied,06-01-2025,06-02-2025
+216,Ishaan Nair,B23CS1915,occupied,07-01-2025,07-02-2025
+217,Ishaan Iyer,B23CS1916,occupied,08-01-2025,08-02-2025
+218,Shreya Mehta,B23CS1917,occupied,09-01-2025,09-02-2025
+219,,,available,,
+220,Sakshi Nambiar,B23CS1919,occupied,10-01-2025,10-02-2025
+221,,,available,,
+222,Kiran Menon,B23CS1921,occupied,11-01-2025,11-02-2025
+223,Divya Iyer,B23CS1922,occupied,12-01-2025,12-02-2025
+224,Sneha Patel,B23CS1923,occupied,13-01-2025,13-02-2025
+225,Nisha Reddy,B23CS1924,occupied,14-01-2025,14-02-2025
+226,,,available,,
+227,Anjali Gupta,B23CS1926,occupied,15-01-2025,15-02-2025
+228,,,available,,
+229,,,available,,
+230,,,available,,
+231,Riya Yadav,B23CS1930,occupied,16-01-2025,16-02-2025
+232,,,available,,
+233,Arjun Iyer,B23CS1932,occupied,17-01-2025,17-02-2025
+234,,,available,,
+235,Aarav Kumar,B23CS1934,occupied,18-01-2025,18-02-2025
+236,,,available,,
+237,Meera Thakur,B23CS1936,occupied,19-01-2025,19-02-2025
+238,Rohan Yadav,B23CS1937,occupied,20-01-2025,20-02-2025
+239,,,available,,
+240,Nisha Sharma,B23CS1939,occupied,21-01-2025,21-02-2025
+241,Kiran Kapoor,B23CS1940,occupied,22-01-2025,22-02-2025
+242,Aman Nambiar,B23CS1941,occupied,23-01-2025,23-02-2025
+243,,,available,,
+244,,,available,,
+245,Meera Mehta,B23CS1944,occupied,24-01-2025,24-02-2025
+246,,,available,,
+247,,,available,,
+248,Rohit Yadav,B23CS1947,occupied,25-01-2025,25-02-2025
+249,Kabir Mehta,B23CS1948,occupied,26-01-2025,26-02-2025
+250,,,available,,
+251,,,available,,
+252,Arjun Thakur,B23CS1951,occupied,27-01-2025,27-02-2025
+253,Rohan Yadav,B23CS1952,occupied,28-01-2025,28-02-2025
+254,Rohit Chopra,B23CS1953,occupied,29-01-2025,01-03-2025
+255,Kiran Nambiar,B23CS1954,occupied,30-01-2025,02-03-2025
+256,,,available,,
+257,Vikram Sharma,B23CS1956,occupied,31-01-2025,03-03-2025
+258,,,available,,
+259,Ishaan Nambiar,B23CS1958,occupied,01-02-2025,04-03-2025
+260,,,available,,
+261,,,available,,
+262,Vikram Thakur,B23CS1961,occupied,02-02-2025,05-03-2025
+263,Sakshi Thakur,B23CS1962,occupied,03-02-2025,06-03-2025
+264,,,available,,
+265,Ishaan Gupta,B23CS1964,occupied,04-02-2025,07-03-2025
+266,,,available,,
+267,Aarav Singh,B23CS1966,occupied,05-02-2025,08-03-2025
+268,,,available,,
+269,,,available,,
+270,,,available,,
+271,Rohit Nambiar,B23CS1970,occupied,06-02-2025,09-03-2025
+272,,,available,,
+273,,,available,,
+274,Anjali Mehta,B23CS1973,occupied,07-02-2025,10-03-2025
+275,,,available,,
+276,Kabir Reddy,B23CS1975,occupied,08-02-2025,11-03-2025
+277,,,available,,
+278,Meera Mehta,B23CS1977,occupied,09-02-2025,12-03-2025
+279,Rohit Thakur,B23CS1978,occupied,10-02-2025,13-03-2025
+280,Anjali Das,B23CS1979,occupied,11-02-2025,14-03-2025
+281,,,available,,
+282,,,available,,
+283,Ravi Yadav,B23CS1982,occupied,12-02-2025,15-03-2025
+284,,,available,,
+285,,,available,,
+286,Priya Jain,B23CS1985,occupied,13-02-2025,16-03-2025
+287,Rohan Reddy,B23CS1986,occupied,14-02-2025,17-03-2025
+288,Anjali Mehta,B23CS1987,occupied,15-02-2025,18-03-2025
+289,Nisha Singh,B23CS1988,occupied,16-02-2025,19-03-2025
+290,Aarav Yadav,B23CS1989,occupied,17-02-2025,20-03-2025
+291,Rahul Nambiar,B23CS1990,occupied,18-02-2025,21-03-2025
+292,Priya Jain,B23CS1991,occupied,19-02-2025,22-03-2025
+293,,,available,,
+294,Vikram Kapoor,B23CS1993,occupied,20-02-2025,23-03-2025
+295,,,available,,
+296,Kiran Verma,B23CS1995,occupied,21-02-2025,24-03-2025
+297,,,available,,
+298,Meera Singh,B23CS1997,occupied,22-02-2025,25-03-2025
+299,Anjali Kumar,B23CS1998,occupied,23-02-2025,26-03-2025
+300,Sneha Sharma,B23CS1999,occupied,24-02-2025,27-03-2025

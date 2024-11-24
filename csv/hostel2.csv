@@ -1,201 +1,241 @@
-Room No,Name,Roll No,Status
-101,Ravi Kumar,B23CS1400,occupied
-102,Riya Kumar,B23CS1401,occupied
-103,Nisha Mehta,B23CS1402,occupied
-104,Rohan Verma,B23CS1403,occupied
-105,Priya Kapoor,B23CS1404,occupied
-106,Riya Mehta,B23CS1405,occupied
-107,Rohan Nambiar,B23CS1406,occupied
-108,Sakshi Saxena,B23CS1407,occupied
-109,,,available
-110,,,available
-111,Sneha Yadav,B23CS1410,occupied
-112,Anjali Patel,B23CS1411,occupied
-113,Anjali Yadav,B23CS1412,occupied
-114,,,available
-115,,,available
-116,,,available
-117,Aman Patel,B23CS1416,occupied
-118,,,available
-119,Nisha Nambiar,B23CS1418,occupied
-120,,,available
-121,Anjali Aggarwal,B23CS1420,occupied
-122,Sneha Nair,B23CS1421,occupied
-123,Nisha Saxena,B23CS1422,occupied
-124,Aman Nambiar,B23CS1423,occupied
-125,,,available
-126,Aman Jain,B23CS1425,occupied
-127,,,available
-128,,,available
-129,,,available
-130,,,available
-131,,,available
-132,Nisha Iyer,B23CS1431,occupied
-133,Rohan Sharma,B23CS1432,occupied
-134,,,available
-135,Aarav Singh,B23CS1434,occupied
-136,Anjali Gupta,B23CS1435,occupied
-137,,,available
-138,,,available
-139,,,available
-140,Aarav Yadav,B23CS1439,occupied
-141,,,available
-142,Rohan Thakur,B23CS1441,occupied
-143,,,available
-144,,,available
-145,Aman Nambiar,B23CS1444,occupied
-146,,,available
-147,Rohan Chopra,B23CS1446,occupied
-148,,,available
-149,,,available
-150,Meera Aggarwal,B23CS1449,occupied
-151,,,available
-152,,,available
-153,Rahul Reddy,B23CS1452,occupied
-154,,,available
-155,,,available
-156,,,available
-157,,,available
-158,Shreya Mehta,B23CS1457,occupied
-159,Rahul Das,B23CS1458,occupied
-160,,,available
-161,,,available
-162,,,available
-163,,,available
-164,,,available
-165,Divya Mehta,B23CS1464,occupied
-166,,,available
-167,Shreya Thakur,B23CS1466,occupied
-168,,,available
-169,,,available
-170,Kiran Sharma,B23CS1469,occupied
-171,Sneha Chopra,B23CS1470,occupied
-172,Aarav Singh,B23CS1471,occupied
-173,Kabir Gupta,B23CS1472,occupied
-174,Anjali Sharma,B23CS1473,occupied
-175,Rohit Kumar,B23CS1474,occupied
-176,Rohit Nambiar,B23CS1475,occupied
-177,Rohan Thakur,B23CS1476,occupied
-178,Kiran Gupta,B23CS1477,occupied
-179,,,available
-180,,,available
-181,Riya Sharma,B23CS1480,occupied
-182,,,available
-183,,,available
-184,,,available
-185,Vikram Das,B23CS1484,occupied
-186,,,available
-187,,,available
-188,,,available
-189,,,available
-190,Rahul Das,B23CS1489,occupied
-191,Sneha Jain,B23CS1490,occupied
-192,Meera Singh,B23CS1491,occupied
-193,Arjun Verma,B23CS1492,occupied
-194,,,available
-195,Rohan Yadav,B23CS1494,occupied
-196,,,available
-197,,,available
-198,,,available
-199,Aman Kapoor,B23CS1498,occupied
-200,,,available
-201,Shreya Sharma,B23CS1500,occupied
-202,Anjali Verma,B23CS1501,occupied
-203,,,available
-204,Rohan Aggarwal,B23CS1503,occupied
-205,Nisha Kumar,B23CS1504,occupied
-206,Anjali Nair,B23CS1505,occupied
-207,Divya Jain,B23CS1506,occupied
-208,,,available
-209,Arjun Kapoor,B23CS1508,occupied
-210,,,available
-211,,,available
-212,,,available
-213,Riya Singh,B23CS1512,occupied
-214,,,available
-215,Aarav Mehta,B23CS1514,occupied
-216,Shreya Sharma,B23CS1515,occupied
-217,,,available
-218,Rohan Das,B23CS1517,occupied
-219,,,available
-220,Arjun Jain,B23CS1519,occupied
-221,,,available
-222,,,available
-223,,,available
-224,,,available
-225,Anjali Iyer,B23CS1524,occupied
-226,,,available
-227,Arjun Mehta,B23CS1526,occupied
-228,,,available
-229,,,available
-230,,,available
-231,,,available
-232,,,available
-233,Divya Saxena,B23CS1532,occupied
-234,Ishaan Thakur,B23CS1533,occupied
-235,Aarav Gupta,B23CS1534,occupied
-236,Arjun Iyer,B23CS1535,occupied
-237,,,available
-238,Sakshi Gupta,B23CS1537,occupied
-239,Sakshi Reddy,B23CS1538,occupied
-240,Rohan Iyer,B23CS1539,occupied
-241,,,available
-242,Kabir Mehta,B23CS1541,occupied
-243,Riya Reddy,B23CS1542,occupied
-244,Divya Nambiar,B23CS1543,occupied
-245,,,available
-246,,,available
-247,Shreya Sharma,B23CS1546,occupied
-248,Anjali Verma,B23CS1547,occupied
-249,Ravi Verma,B23CS1548,occupied
-250,Aman Aggarwal,B23CS1549,occupied
-251,,,available
-252,,,available
-253,,,available
-254,Sneha Reddy,B23CS1553,occupied
-255,,,available
-256,,,available
-257,,,available
-258,Rohit Menon,B23CS1557,occupied
-259,Rahul Menon,B23CS1558,occupied
-260,Kabir Iyer,B23CS1559,occupied
-261,,,available
-262,,,available
-263,,,available
-264,,,available
-265,,,available
-266,Anjali Gupta,B23CS1565,occupied
-267,,,available
-268,Kiran Saxena,B23CS1567,occupied
-269,Aarav Kapoor,B23CS1568,occupied
-270,Aman Nair,B23CS1569,occupied
-271,,,available
-272,,,available
-273,,,available
-274,,,available
-275,Nisha Verma,B23CS1574,occupied
-276,Sneha Saxena,B23CS1575,occupied
-277,Sneha Gupta,B23CS1576,occupied
-278,,,available
-279,,,available
-280,Aarav Sharma,B23CS1579,occupied
-281,,,available
-282,Arjun Singh,B23CS1581,occupied
-283,,,available
-284,Rahul Gupta,B23CS1583,occupied
-285,Divya Thakur,B23CS1584,occupied
-286,Ravi Yadav,B23CS1585,occupied
-287,,,available
-288,,,available
-289,,,available
-290,Sakshi Kumar,B23CS1589,occupied
-291,Ravi Kumar,B23CS1590,occupied
-292,,,available
-293,Nisha Sharma,B23CS1592,occupied
-294,,,available
-295,Aman Thakur,B23CS1594,occupied
-296,,,available
-297,Vikram Kapoor,B23CS1596,occupied
-298,Aman Singh,B23CS1597,occupied
-299,Kabir Thakur,B23CS1598,occupied
-300,,,available
+roomNo,name,rollNo,status,,,,,,,,
+101,KUMAR GAURAV,P24CI0010,occupied,,,,,,,,
+102,M Ravi Naik,P24ET0006,occupied,,,,,,,,
+103,Prashant Tardan,B21AI053,occupied,,,,,,,,
+104,Naman Goyal,B21CS048,occupied,,,,,,,,
+105,Shah Keval Bhushanbhai,B21CS069,occupied,,,,,,,,
+106,Ayan Das,M23MSF001,occupied,,,,,,,,
+107,Harshal kumar,M23MSF003,occupied,,,,,,,,
+108,Venktesh kumar,M23CSE028,occupied,,,,,,,,
+109,Onkar Singh,B21BB021,occupied,,,,,,,,
+110,Pechetti Sai Akhil,B21AI025,occupied,,,,,,,,
+111,Subham Bagwari,P22CS201,occupied,,,,,,,,
+112,Hrishikes Makwana,B21EE087,occupied,,,,,,,,
+113,Om Kashyap,B21MT026,occupied,,,,,,,,
+114,Rohan Raj,B21EE057,occupied,,,,,,,,
+115,Rishabh johri,M23CSA020,occupied,,,,,,,,
+116,Yogesh Yaday,B21MT041,occupied,,,,,,,,
+117,Om Nirne,B21CI030,occupied,,,,,,,,
+118,Kush Agrawal,B21ME034,occupied,,,,,,,,
+119,Vansh Pratap Singh,B21ME070,occupied,,,,,,,,
+120,AKASH SINGH,P24EE0031,occupied,,,,,,,,
+121,Ayush Anand,P24LA0004,occupied,,,,,,,,
+121,Dwimalu Boro ,B20CH017,occupied,,,,,,,,
+122,Aditya Balpande,P21MT001,occupied,,,,,,,,
+123,Sachin Sonker,P24EE0020,occupied,,,,,,,,
+124,Shivam Shukla,M23CSE022,occupied,,,,,,,,
+125,Bikash Kumar Sahoo,P24LA0005,occupied,,,,,,,,
+126,PRANJAL PANDEY,M23CSA018,occupied,,,,,,,,
+127,KHUSHAL DOMAT,B21AI018,occupied,,,,,,,,
+128,Vidit Garg,B21AI045,occupied,,,,,,,,
+129,Krishna Singh,P20HS006,occupied,,,,,,,,
+130,Vidit Agrawal ,B21AI058,occupied,,,,,,,,
+131,Pranjal Patel,B21BB024,occupied,,,,,,,,
+132,Paras Kalyan,B20AI027,occupied,,,,,,,,
+133,Vinay Vaishnav,B21EE084,occupied,,,,,,,,
+134,Surojit Ghosh,IDRPSHC002,occupied,,,,,,,,
+135,Ashwani Kumar,P24EE0004,occupied,,,,,,,,
+136,Jitendra Kumar,P24EE0008,occupied,,,,,,,,
+137,SARATH M N,P23LA0010,occupied,,,,,,,,
+138,SOYAM SHEKHAR,P24IQC004,occupied,,,,,,,,
+139,Ashish Kumar Pandey,P24LA0003,occupied,,,,,,,,
+140,Mayank Jonwal,B21AI022,occupied,,,,,,,,
+141,Gunjan sharma,M23MSF002,occupied,,,,,,,,
+142,Yagnesh Dave,B21AI046,occupied,,,,,,,,
+143,Samarth Sudhirkumar,B21EE060,occupied,,,,,,,,
+144,Aniket Jana,IDRP19SH201,occupied,,,,,,,,
+145,Amresh kumar,M23CSA004,occupied,,,,,,,,
+146,NAVTOJ SINGH,P24LA0008,occupied,,,,,,,,
+147,RISHU KUMAR,P24CS0007,occupied,,,,,,,,
+148,PRATEEK SRIVASTVA,,occupied,,,,,,,,
+149,Jeet Dabhi,M23MSF004,occupied,,,,,,,,
+150,Mayank Yadav,M23MSF005,occupied,,,,,,,,
+151,Govind Meena,B20ME034,occupied,,,,,,,,
+152,Praveen Kumar,M23CSA019,occupied,,,,,,,,
+153,Hemant Kumar,P19EE019,occupied,,,,,,,,
+154,Ram Kamal Samat,IDRPSHC006,occupied,,,,,,,,
+155,ANUJ SRIVASTVA,P23CI0002,occupied,,,,,,,,
+156,Subham Dhaka,D20CI051,occupied,,,,,,,,
+157,Akshit Dutta,D20MT001,occupied,,,,,,,,
+158,Juhir Bin Wazid,B21MT020,occupied,,,,,,,,
+159,Pranav Chakravarthy,B21EE050,occupied,,,,,,,,
+160,K V M Mohammed Faheem,P24LA0006,occupied,,,,,,,,
+161,Divyansh Mertia,M23CSE013,occupied,,,,,,,,
+162,Mukesh Karthikeya Badith,B21EE039,occupied,,,,,,,,
+163,Kunal Alok Tiwari,B21CI023,occupied,,,,,,,,
+164,AMBUJ,P24IQC001,occupied,,,,,,,,
+165,RAVI AGRAHARI,M23EEV014,occupied,,,,,,,,
+166,ANUJ BIND,P23CI0009,occupied,,,,,,,,
+167,Kriti Datta,P19EE001,occupied,,,,,,,,
+168,SHYAM SINGH DARIYA,M23EEV018,occupied,,,,,,,,
+169,NAVEEN SHARMA,P23CI0005,occupied,,,,,,,,
+170,Ajay Gupta,P19EE016,occupied,,,,,,,,
+171,Arko Goswami,P24EE0002,occupied,,,,,,,,
+172,JAYANT MAHAWAR,P20CS203,occupied,,,,,,,,
+173,Kritarth Srivastava,P19EE017,occupied,,,,,,,,
+174,Obed jamir,D23CSE004,occupied,,,,,,,,
+175,Tamal Dey,P21BB007,occupied,,,,,,,,
+176,Dhirajkumar Jitendrabhai Patanvadiya,P24CY0009,occupied,,,,,,,,
+201,SOUBHAGYA KUMAR SARANGI,M24CHE010,occupied,,,,,,,,
+202,Md. Aamir Sohail,P24CS0002,occupied,,,,,,,,
+203,Zulqar Nain Ahmed,P24CH0020,occupied,,,,,,,,
+204,SUMIT GHILDIYAL,M23CSE026,occupied,,,,,,,,
+205,SANJEEV KUMAR,M23CSE020,occupied,,,,,,,,
+206,Shubham Singh,P20EE014,occupied,,,,,,,,
+207,PULKIT GARG,P21CS011,occupied,,,,,,,,
+208,Darshan Parakh,B21EE047,occupied,,,,,,,,
+209, Aashish Kanuju,B21AI001,occupied,,,,,,,,
+210,SARTHAK RATHAKAR,B20EE058,occupied,,,,,,,,
+211,NITESH KUMAR,P23MA0010,occupied,,,,,,,,
+212,Sujay kumar ingle,D23CSA003,occupied,,,,,,,,
+213,Soumen maity,M23CSE025,occupied,,,,,,,,
+214,Abhishek Roy,M23CSE002,occupied,,,,,,,,
+215,Nitish Bhardawaj,B21AI056,occupied,,,,,,,,
+216,Shoiab Shafi,P24CS0004,occupied,,,,,,,,
+217,Amlan Chaini,P24BB0002,occupied,,,,,,,,
+218,Ujjwal Dangi,P24CH0019,occupied,,,,,,,,
+219,Aarush Maheshwari,B21CS002,occupied,,,,,,,,
+220,DEEPRAJ Majumdar,M23CSE012,occupied,,,,,,,,
+221,SANJAY RAJOURIYA,M23EEC012,occupied,,,,,,,,
+222,JAYANT KATARIA,B20ME038,occupied,,,,,,,,
+223,Balaji Kharte,B21ME078,occupied,,,,,,,,
+224,ANKIT,P23MA0003,occupied,,,,,,,,
+225,PRAKHAR SHUKLA ,P23MA0011,occupied,,,,,,,,
+226,Ardhendu Mondal,P24CY0002,occupied,,,,,,,,
+227,Yogesh Jangir,B21CS083,occupied,,,,,,,,
+228,Shreyas Vaidya,B21CS072,occupied,,,,,,,,
+229,AJIT SINGH RAJAWAT,P24EE0001,occupied,,,,,,,,
+230,Dipan mandal,M23CSA009,occupied,,,,,,,,
+231,Rudra dutta,D23CSA002,occupied,,,,,,,,
+232,RAVI RAJ ANAND,P24CH0027,occupied,,,,,,,,
+233,Harsh Sain,B21ME028,occupied,,,,,,,,
+234,Akash Banerjee,P24LA0001,occupied,,,,,,,,
+234,Akash Sapalya,B20BB052,occupied,,,,,,,,
+235,Santosh Bisoyi,P21CI009,occupied,,,,,,,,
+236,Mohit Singh,P21CI007,occupied,,,,,,,,
+237,Rahul Sinha,P24AI0005,occupied,,,,,,,,
+238,Sourin Sikdar,P24BB0008,occupied,,,,,,,,
+239,Jainan Nareshkumar Tandel,M23CSA010,occupied,,,,,,,,
+240,Ankit Kumar,M23CSA006,occupied,,,,,,,,
+241,Artik,B21BB001,occupied,,,,,,,,
+242,Raghav ,M22EE006,occupied,,,,,,,,
+243,Ram Bharat Meena,B21MT043,occupied,,,,,,,,
+244,Prajjwal Nijhana,D23CSE005,occupied,,,,,,,,
+245,Tushar Singhania,P24CI0009,occupied,,,,,,,,
+246,SUNIRBAN SARKAR,M23CSE029,occupied,,,,,,,,
+247,Neeraj Kumar Prasad,P24EE0011,occupied,,,,,,,,
+248,Anil Nana Chouhan,P24LA0002,occupied,,,,,,,,
+249,Yejjla Venkata Surya Prasad,B21CH037,occupied,,,,,,,,
+250,Akshansh yadav,D23CSE001,occupied,,,,,,,,
+251,Harsh pratap singh,M23CSE014,occupied,,,,,,,,
+252,Abhijeet Mondal,P24ET0001,occupied,,,,,,,,
+253,Adarsh Bharti,MP19MT002,occupied,,,,,,,,
+254,Lovpreet Singh,P24CY0005,occupied,,,,,,,,
+255,Shubh Goyal,B21CS073,occupied,,,,,,,,
+256,Spandan Maikap,MP19TFE001,occupied,,,,,,,,
+257,Darshan. S,MP19MFE001,occupied,,,,,,,,
+258,Dibyaranjan Parida,P24ET0004,occupied,,,,,,,,
+259,Rakesh Kumar,MP19DE001,occupied,,,,,,,,
+260,Alli khadga jyoth,M23CSA003,occupied,,,,,,,,
+261,Anindya Das,P24CY0001,occupied,,,,,,,,
+262,Nakkina Vinay,B21AI023,occupied,,,,,,,,
+263,Rahul Pundora ,MP19MT001,occupied,,,,,,,,
+264,Jatin Lohar,B21cs091,occupied,,,,,,,,
+265,Prabhat Ranjan,M23CSA017,occupied,,,,,,,,
+266,Ankit modi,M23CSE005,occupied,,,,,,,,
+267,VISHAL,P23CS0009,occupied,,,,,,,,
+268,Nimish Kumar,P24AI0002,occupied,,,,,,,,
+269,Pawan Kanwa,B21EE046,occupied,,,,,,,,
+270,Nityananda Biswas,P24BB0006,occupied,,,,,,,,
+271,Prajwal Vijay Kajare,P24AI0004,occupied,,,,,,,,
+272,Monu Nagar,D20AI002,occupied,,,,,,,,
+273,Rishabh Ranjan,MP19AI004,occupied,,,,,,,,
+274,Akash Verma,P24CI0001,occupied,,,,,,,,
+275,Niranjan Jaugir,B21CH021,occupied,,,,,,,,
+276,Bikash Datta,D22CS051,occupied,,,,,,,,
+277,Chiranjeev ,P21CS007,occupied,,,,,,,,
+278,NISHANT DAS,M23CSE015,occupied,,,,,,,,
+279,Mubashir Mustakh,P21PH204,occupied,,,,,,,,
+301,SATYA Swaroop,M23CSE021,occupied,,,,,,,,
+302,Uppala Giridhar,B21EE072,occupied,,,,,,,,
+303,Tanish Pageria,B21AI040,occupied,,,,,,,,
+304,SACHIN KUMAR,M23CSE018,occupied,,,,,,,,
+305,Vilok Parkhi,B21ES021,occupied,,,,,,,,
+306,Adarsh Kumar,B21BB003,occupied,,,,,,,,
+307,Vinayak Raj Ranjan,B21MT039,occupied,,,,,,,,
+308,Vishal Baghel,B21BB034,occupied,,,,,,,,
+309,Dilip Choudhary,B21ES009,occupied,,,,,,,,
+310,Geda Durga Vara Praveen,B21CS031,occupied,,,,,,,,
+311,Charan Singh,B21ES008,occupied,,,,,,,,
+312,B. Vishwanat,B21ME016,occupied,,,,,,,,
+313,Kartik Sharma,B21CS090,occupied,,,,,,,,
+314,Himesh Dhaka,B21EE026,occupied,,,,,,,,
+315,Himanshu Gaurav,B21EE025,occupied,,,,,,,,
+316,Monoj Solara,B21CI027,occupied,,,,,,,,
+317,Devendra Bhaginath Jadh,B21AI013,occupied,,,,,,,,
+318,Vansh Agarwal,B21AI042,occupied,,,,,,,,
+319,Shaik Mohammed Touseef ,B21ME061,occupied,,,,,,,,
+320,Ashudeep Dubey,B21EE090,occupied,,,,,,,,
+321,Utkarsh Srivastava,B21CI043,occupied,,,,,,,,
+322,Iyappan Ar,B21MT019,occupied,,,,,,,,
+323,Shuhul Handoo,P24CS0005,occupied,,,,,,,,
+324,Mohit Sharma,M23CSA015,occupied,,,,,,,,
+325,Samarpan Kumar,B21CI039,occupied,,,,,,,,
+326,Devavrath Sandeep,B21BB010,occupied,,,,,,,,
+327,Somshuvra Basu,B21EE069,occupied,,,,,,,,
+328,Shubham Mishra,B21ME065,occupied,,,,,,,,
+329,Samarth Patel,B21CS057,occupied,,,,,,,,
+330,Ritesh Bansode,B21ME053,occupied,,,,,,,,
+331,Javed Ahmad,P24CH0009,occupied,,,,,,,,
+332,Kevin Somra,P24CI0002,occupied,,,,,,,,
+333,Rishabh Gaur,P24BB0007,occupied,,,,,,,,
+334,Sakam Saisanthosh,B21AI035,occupied,,,,,,,,
+335,Tale Sai Saathwik,B21MT036,occupied,,,,,,,,
+336,P. Sai Kiran Reddy,B21CS056,occupied,,,,,,,,
+337,Srivats J.,B21CH032,occupied,,,,,,,,
+338,Prabhanshu Yadav,P24EE0017,occupied,,,,,,,,
+339,Adarsh Raj Shrivastava,B21AI003,occupied,,,,,,,,
+340,Ankur,B21CS011,occupied,,,,,,,,
+341,Aman Gupta ,B21ME003,occupied,,,,,,,,
+342,Ankit Kumar,B21CI006,occupied,,,,,,,,
+343,Anupam Veram,B21EE007,occupied,,,,,,,,
+344,AMIT KUMAR,P20EE001,occupied,,,,,,,,
+345,Ankit Kumar,B21EE093,occupied,,,,,,,,
+346,Kartik Narkhede,B21EE041,occupied,,,,,,,,
+347,Rohitash Bishnoi,B21BB026,occupied,,,,,,,,
+348,Amandeep Sharma,P24BB0001,occupied,,,,,,,,
+349,Dhyan Naik,B21CS097,occupied,,,,,,,,
+350,Soham Parikh,B21CS074,occupied,,,,,,,,
+351,Anurag Singh,B21ES004,occupied,,,,,,,,
+352,Anshul Thakur,B21CS085,occupied,,,,,,,,
+353,Anupam Singh,B21CS086,occupied,,,,,,,,
+354,SUYASH KUSHWAH,B21MT035,occupied,,,,,,,,
+355,Manan Jain,B21AI021,occupied,,,,,,,,
+356,SOHAM KAMBLE,B21CH031,occupied,,,,,,,,
+357,Neel Aniruddha Barve,B21EE042,occupied,,,,,,,,
+358,Tarun Raj Singh,B21CS076,occupied,,,,,,,,
+359,Gandyadapu Sriharsha,B21CS029,occupied,,,,,,,,
+360,PRAJWAL SONDHE,B21CS059,occupied,,,,,,,,
+361,RUCHIT KOCHAR,B21CI038,occupied,,,,,,,,
+362,NAVNEET MEENA,B21CS051,occupied,,,,,,,,
+363,Shourya Kumar,B21ME064,occupied,,,,,,,,
+364,Yogesh Kumar,B21CH038,occupied,,,,,,,,
+365,Divyanshu Raj,B21ME024,occupied,,,,,,,,
+366,Ashutosh Gupta,M23CSE009,occupied,,,,,,,,
+367,CHANDRA SHEKHAR,P24CH0024,occupied,,,,,,,,
+368,MUSHARRAF AHMAD,P24CI0011,occupied,,,,,,,,
+369,Lamdade Sainath Ashok,B21CI024,occupied,,,,,,,,
+370,Anshu Raj,B21AI048,occupied,,,,,,,,
+371,Bobbili Venkata Thrinath,B21CS017,occupied,,,,,,,,
+372,Yatharth Shukla,B21CS080,occupied,,,,,,,,
+373,Pankaj Verma,P24CI0005,occupied,,,,,,,,
+374,Lalit Bahal,P24CI0003,occupied,,,,,,,,
+375,Rahul Noniya,MP19CPS002,occupied,,,,,,,,
+376,Vikash Kumar,B21ME072,occupied,,,,,,,,
+377,Vinay Tailar,B21ME073,occupied,,,,,,,,
+378,Vishal Patel,B21CI047,occupied,,,,,,,,
+379,Yash Kumar,B21EE078,occupied,,,,,,,,
+380,Yash Shrivastava,B21CS079,occupied,,,,,,,,
+241A,Anand Singh,M23EEC001,occupied,,,,,,,,
+342A,Sankalp Sabirta,IDRP19CG201,occupied,,,,,,,,
+380a,GYANENDRA CHEUBEY,M23AIR005,occupied,,,,,,,,
