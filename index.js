@@ -26,19 +26,29 @@ app.use(express.json());
 app.use(cookieParser());
 // // app.use('/uploads', express.static(__dirname+'/uploads'));
 
-app.use(cors({
-  origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Set the specific frontend origin
-  credentials: true, // Enable credentials (cookies, authorization headers)
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
-}));
+
+// app.use(cors({
+//   origin: 'http://localhost:5173', // Update this to your frontend's URL
+//   credentials: true, // Allow credentials (cookies, authorization headers)
+// }));
+app.use(cors(
+  {
+    origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Set the specific frontend origin
+    credentials: true, // Enable credentials (cookies, authorization headers)
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
+  }
+));
+
+
 
 
 // Modify the mongoose connection string to include the database name
-mongoose.connect(process.env.MONGO_URL + '/Hostel_DB', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(process.env.MONGO_URL , {
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
+}).then(()=> {console.log("db connected successfully")})
+.catch((e)=> {console.error(e)});
 
 app.get('/', (req,res) => {
   res.send("Hostel Room Allocation");
@@ -403,5 +413,8 @@ app.get('/students', async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 4000);
+const port = 4000;
+app.listen(process.env.PORT || port,() => {
+  console.log(`Server Started at port : ${port}`)
+});
 
