@@ -7,9 +7,11 @@ const hostelSchema = new mongoose.Schema({
   image: String
 });
 
-const DB = mongoose.connection.useDb("Hostel_DB")
-const Hostel =  DB.model('Hostel', hostelSchema);
-// const Hostel =  mongoose.connection.model('Hostel', hostelSchema);
+// Remove the useDb and DB.model lines
+// const DB = mongoose.connection.useDb("Hostel_DB");
+// const Hostel = DB.model('Hostel', hostelSchema);
 
+// Register the model using mongoose.model
+const Hostel = mongoose.model('Hostel', hostelSchema);
 
 module.exports = Hostel;

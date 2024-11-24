@@ -34,7 +34,9 @@ app.use(cors({
 }));
 
 
-mongoose.connect(process.env.MONGO_URL);
+// Modify the mongoose connection string to include the database name
+mongoose.connect(process.env.MONGO_URL + '/Hostel_DB');
+
 app.get('/', (req,res) => {
   res.send("Hostel Room Allocation");
 });
