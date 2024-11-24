@@ -33,7 +33,7 @@ app.use(cookieParser());
 // }));
 
 app.use(cors({
-  origin: 'https://iitj-hostel-allocation-frontend.vercel.app/', // Update this to your frontend's URL
+  origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Update this to your frontend's URL
   credentials: true, // Allow credentials (cookies, authorization headers)
 }));
 
