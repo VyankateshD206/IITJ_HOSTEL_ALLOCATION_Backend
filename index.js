@@ -147,7 +147,10 @@ app.get('/hostels', async (req, res) => {
     //console.log('Hostels found:', hostels);
     
     // Add a test hostel if none are found
-    
+    if (hostels.length === 0) {
+      return res.status(404).json({ error: 'No hostels found' });
+    }
+
     for (let hostel of hostels) {
       const totalRooms = await Room.countDocuments({ hostel: hostel._id });
       const availableRooms = await Room.countDocuments({ hostel: hostel._id, status: 'available' });
