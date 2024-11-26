@@ -11,9 +11,9 @@ const Hostel = require('./models/Hostel');
 const cookieParser = require('cookie-parser');
 // const imageDownloader = require('image-downloader');
 // const {S3Client, PutObjectCommand} = require('@aws-sdk/client-s3');
-// const multer = require('multer');
-// const fs = require('fs');
-// const mime = require('mime-types');
+const multer = require('multer');
+const csv = require('csv-parser');
+const fs = require('fs');
 
 require('dotenv').config();
 const app = express();
@@ -32,7 +32,7 @@ app.use(cookieParser());
 //   credentials: true, // Allow credentials (cookies, authorization headers)
 // }));
 
-app.use(cors({
+app.use(cors({ // use this
   origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Update this to your frontend's URL
   credentials: true, // Allow credentials (cookies, authorization headers)
 }));
@@ -417,6 +417,59 @@ app.get('/students', async (req, res) => {
       error: 'An error occurred while fetching students',
       details: error.message
     });
+  }
+});
+
+// Set up multer for file uploads
+const upload = multer({ dest: 'uploads/' }); // Temporary storage for uploaded files
+
+// Endpoint to upload CSV
+app.post('/upload-csv', upload.single('file'), async (req, res) => {
+  const results = [];
+  fs.createReadStream(req.file.path)
+    .pipe(csv())
+    .on('data', (data) => results.push(data))
+    .on('end', async () => {
+      try {
+        console.log("started to add rooms");
+        // Process each row in the CSV
+        for (const row of results) {
+          const { roomNo, name, rollNo, hostelId } = row; // Adjust based on your CSV structure
+          
+          // Determine the status based on the presence of data
+          const status = (name && rollNo) ? 'occupied' : 'available';
+
+          const room = new Room({
+            roomNo,
+            name: name || '', // Set to empty string if not provided
+            rollNo: rollNo || '', // Set to empty string if not provided
+            status,
+            hostel: hostelId, // Assuming hostelId is provided in the CSV
+          });
+
+          await room.save();
+        }
+        res.status(200).json({ message: 'Rooms added successfully', data: results });
+      } catch (error) {
+        console.error('Error saving rooms:', error);
+        res.status(500).json({ error: 'An error occurred while saving rooms' });
+      } finally {
+        // Clean up the uploaded file
+        fs.unlinkSync(req.file.path);
+      }
+    });
+});
+
+// Endpoint to delete all rooms for a specific hostel ID
+app.delete('/delete-rooms/:hostelId', async (req, res) => {
+  const { hostelId } = req.params;
+
+  try {
+    const result = await Room.deleteMany({ hostel: hostelId });
+    res.status(200).json({ message: `${result.deletedCount} rooms deleted successfully.` });
+  } catch (error) {
+    console.error('Error deleting rooms:', error);
+    res.status(500).json({ error: 'An error occurred while deleting rooms' });
   }
 });
 
