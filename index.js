@@ -32,20 +32,20 @@ app.use(cookieParser());
 //   credentials: true, // Allow credentials (cookies, authorization headers)
 // }));
 
-app.use(cors({ 
-  origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Update this to your frontend's URL
-  credentials: true, // Allow credentials (cookies, authorization headers)
-}));
+// app.use(cors({ 
+//   origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Update this to your frontend's URL
+//   credentials: true, // Allow credentials (cookies, authorization headers)
+// }));
 
 
-// app.use(cors(
-//   {
-//     origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Set the specific frontend origin
-//     credentials: true, // Enable credentials (cookies, authorization headers)
-//     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-//     allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
-//   }
-// ));
+app.use(cors(
+  {
+    origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Set the specific frontend origin
+    credentials: true, // Enable credentials (cookies, authorization headers)
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
+  }
+));
 
 
 
