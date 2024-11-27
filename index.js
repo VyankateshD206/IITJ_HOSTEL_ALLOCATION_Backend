@@ -27,25 +27,24 @@ app.use(cookieParser());
 // // app.use('/uploads', express.static(__dirname+'/uploads'));
 
 
-// app.use(cors({
-//   origin: 'http://localhost:5173', // Update this to your frontend's URL
-//   credentials: true, // Allow credentials (cookies, authorization headers)
-// }));
+app.use(cors({
+  origin: 'http://localhost:5173', // Update this to your frontend's URL
+  credentials: true, // Allow credentials (cookies, authorization headers)
+}));
 
 // app.use(cors({ 
 //   origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Update this to your frontend's URL
 //   credentials: true, // Allow credentials (cookies, authorization headers)
 // }));
 
-
-app.use(cors(
-  {
-    origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Set the specific frontend origin
-    credentials: true, // Enable credentials (cookies, authorization headers)
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
-  }
-));
+// app.use(cors(
+//   {
+//     origin: 'https://iitj-hostel-allocation-frontend.vercel.app', // Set the specific frontend origin
+//     credentials: true, // Enable credentials (cookies, authorization headers)
+//     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+//     allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
+//   }
+// ));
 
 
 
@@ -420,58 +419,58 @@ app.get('/students', async (req, res) => {
   }
 });
 
-// // Set up multer for file uploads
-// const upload = multer({ dest: 'uploads/' }); // Temporary storage for uploaded files
+// Set up multer for file uploads
+const upload = multer({ dest: 'uploads/' }); // Temporary storage for uploaded files
 
-// Endpoint to upload CSV
-// app.post('/upload-csv', upload.single('file'), async (req, res) => {
-//   const results = [];
-//   fs.createReadStream(req.file.path)
-//     .pipe(csv())
-//     .on('data', (data) => results.push(data))
-//     .on('end', async () => {
-//       try {
-//         console.log("started to add rooms");
-//         // Process each row in the CSV
-//         for (const row of results) {
-//           const { roomNo, name, rollNo, hostelId } = row; // Adjust based on your CSV structure
+//Endpoint to upload CSV
+app.post('/upload-csv', upload.single('file'), async (req, res) => {
+  const results = [];
+  fs.createReadStream(req.file.path)
+    .pipe(csv())
+    .on('data', (data) => results.push(data))
+    .on('end', async () => {
+      try {
+        console.log("started to add rooms");
+        // Process each row in the CSV
+        for (const row of results) {
+          const { roomNo, name, rollNo, hostelId } = row; // Adjust based on your CSV structure
           
-//           // Determine the status based on the presence of data
-//           const status = (name && rollNo) ? 'occupied' : 'available';
+          // Determine the status based on the presence of data
+          const status = (name && rollNo) ? 'occupied' : 'available';
 
-//           const room = new Room({
-//             roomNo,
-//             name: name || '', // Set to empty string if not provided
-//             rollNo: rollNo || '', // Set to empty string if not provided
-//             status,
-//             hostel: hostelId, // Assuming hostelId is provided in the CSV
-//           });
+          const room = new Room({
+            roomNo,
+            name: name || '', // Set to empty string if not provided
+            rollNo: rollNo || '', // Set to empty string if not provided
+            status,
+            hostel: hostelId, // Assuming hostelId is provided in the CSV
+          });
 
-//           await room.save();
-//         }
-//         res.status(200).json({ message: 'Rooms added successfully', data: results });
-//       } catch (error) {
-//         console.error('Error saving rooms:', error);
-//         res.status(500).json({ error: 'An error occurred while saving rooms' });
-//       } finally {
-//         // Clean up the uploaded file
-//         fs.unlinkSync(req.file.path);
-//       }
-//     });
-// });
+          await room.save();
+        }
+        res.status(200).json({ message: 'Rooms added successfully', data: results });
+      } catch (error) {
+        console.error('Error saving rooms:', error);
+        res.status(500).json({ error: 'An error occurred while saving rooms' });
+      } finally {
+        // Clean up the uploaded file
+        fs.unlinkSync(req.file.path);
+      }
+    });
+});
 
-// // Endpoint to delete all rooms for a specific hostel ID
-// app.delete('/delete-rooms/:hostelId', async (req, res) => {
-//   const { hostelId } = req.params;
+// Endpoint to delete all rooms for a specific hostel ID
+app.delete('/delete-rooms/:hostelId', async (req, res) => {
+  const { hostelId } = req.params;
 
-//   try {
-//     const result = await Room.deleteMany({ hostel: hostelId });
-//     res.status(200).json({ message: `${result.deletedCount} rooms deleted successfully.` });
-//   } catch (error) {
-//     console.error('Error deleting rooms:', error);
-//     res.status(500).json({ error: 'An error occurred while deleting rooms' });
-//   }
-// });
+  try {
+    const result = await Room.deleteMany({ hostel: hostelId });
+    res.status(200).json({ message: `${result.deletedCount} rooms deleted successfully.` });
+  } catch (error) {
+    console.error('Error deleting rooms:', error);
+    res.status(500).json({ error: 'An error occurred while deleting rooms' });
+  }
+});
 
 const port = 4000;
 app.listen(process.env.PORT || port,() => {
