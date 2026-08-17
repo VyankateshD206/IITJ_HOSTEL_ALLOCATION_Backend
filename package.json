@@ -1,4 +1,16 @@
 {
+  "name": "iitj-hostel-allocation-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie": "^1.0.2",
